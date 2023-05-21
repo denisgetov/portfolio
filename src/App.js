@@ -7,7 +7,6 @@ function App() {
 
     <div>
        <button>
-      <Link to="/Jeff">hello</Link>
      
       </button></div>
 //     <div>
