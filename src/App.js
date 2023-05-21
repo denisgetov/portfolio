@@ -6,9 +6,12 @@ function App() {
   return (
 
     <div>
+      <Link to="/BlogPage">
        <button>
-     
-      </button></div>
+     Go to BLog Page
+      </button>
+      </Link>
+      </div>
 //     <div>
 //       <div id="stars"></div>
 // <div id="stars2"></div>

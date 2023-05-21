@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import BlogPage from './Pages/BlogPage';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -13,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+  },
+  {
+    path: "/BlogPage",
+    element: <BlogPage/>,
   },
 ]);
 

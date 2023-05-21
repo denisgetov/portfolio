@@ -1,6 +1,6 @@
 import React from "react";
 
-function Blogpages() {
+function Blogpage() {
     return(
         <div>
             Blog
@@ -8,4 +8,4 @@ function Blogpages() {
     )
 }
 
-export default Blogpages
+export default Blogpage;
