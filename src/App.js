@@ -1,11 +1,13 @@
 import logo from './logo.svg';
-import './App.css';
+import './index.css';
 import { Link } from "react-router-dom"
+import { Navbar } from './Pages/Navbar';
 
 function App() {
   return (
 
     <div>
+      <Navbar />
       <Link to="/BlogPage">
        <button>
      Go to BLog Page

@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import BlogPage from './Pages/BlogPage';
+import { About } from './Pages/About';
 
 import {
   createBrowserRouter,
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/BlogPage",
     element: <BlogPage/>,
+  },
+  {
+    path: "/About",
+    element: <About/>,
   },
 ]);
 

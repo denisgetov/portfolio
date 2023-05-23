@@ -1,3 +1,234 @@
+.card{
+  padding: 15px;
+  margin: 2rem;
+  color: white;
+  background-image: url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
+  border-radius: 10px;
+  border-color: rgb(194, 67, 201);
+  
+  }
+  /* .pcard{
+      padding: 15px;
+  margin: 3rem;
+  background-color: rgb(59, 47, 59);
+  opacity: 0.9;
+  color: white;
+  border-radius: 6px;
+  
+  border-color: black;
+  } */
+  .navnav{
+  margin-top: 0.53rem;
+  font-size: 25px;
+  color: blue;
+  }
+   .navbar-dark .navbar-brand{
+    cursor: pointer;
+  }
+  .navbar-dark .navbar-brand:hover{
+    cursor: pointer;
+    color: violet;
+    }
+  .backnav{
+      background-image: url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
+  
+  }
+  .navbtn{
+      color: rgb(255, 255, 255);
+      padding: 6px;
+      margin-top: 1.6rem;
+  }
+  
+  .background{
+      background-image: url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
+  }
+  
+  .about{
+      margin: 3rem;
+      padding: 10px;
+      border-radius: 245px;
+      
+  }
+  .abt{
+      border-radius: 25px;
+     ;
+  }
+  .abttitle{
+      color: white;
+  
+      
+  }
+  
+  .foot{
+      background-image: url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
+  
+  }
+  .cards{
+  
+      transition: all 0.2s ease;
+      cursor: pointer;
+      margin: 4rem;
+      opacity: 0.8;
+      box-shadow: 0 0 2px 2px #d8cca5;
+  
+      border-radius: 12px;
+      background-image: url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
+    
+    }
+    .cardss{
+      margin: 5rem;
+  width: 18rem; 
+  border-radius: 12px;
+  padding: 1px;
+  background-image: url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
+  
+  }
+  
+  
+  .cardss:hover{
+    
+    box-shadow: 0 0 7px 7px #b53ac8;;
+    transform: scale(1.1);
+  
+  }
+      
+    
+    
+    .cards:hover{
+    
+      box-shadow: 0 0 9px 9px  #d8cca5;
+      transform: scale(1.1);
+      /* box-shadow: 0 0 4px 4px #d8cca5; */
+  
+  
+    }
+  
+    .card:hover{
+      box-shadow: 0 0 6px 6px #ffc107;
+      transform: scale(1.04);
+  
+    }
+  
+    .bg-dark{
+      border-radius: 12px;
+      border-color: #b53ac8;
+      box-shadow: 0 0 1px 1px #b53ac8;
+      background-image: url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
+  
+  
+    }
+    .bg-inf{
+      background-color: rgb(38, 38, 47);
+      border-radius: 12px;
+    }
+    body{
+      color: rgb(252, 253, 255);
+      border-color: rgb(75, 127, 238);
+      box-shadow: 0 0 6px 6px #ffc107;
+  
+  
+    }
+    .projectt{
+      color: #ffc107;
+    }
+    .projecttt{
+      color: #b53ac8;
+    }
+    .img{
+  margin-left: 12rem;}
+  
+  .img-thumbnail{
+    box-shadow: 0 0 3px 3px #d8a5d5;
+  
+  }
+  
+  h1.aabttitle{
+    color: #7e0cbb;
+    padding-left: 12px;
+    margin-bottom: 3rem;
+    padding-top: 5rem;
+  }
+  
+  a.nav-link.active{
+    color: #b53ac8;
+  }
+  
+  .hover{
+    color: white;
+  }
+  
+  .hover:hover{
+    color: #ffc107;
+  }
+  .img-thumbnail {
+    padding: 0.25rem;
+    border-image:  url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
+    background-image: url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
+box-shadow: none;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column1 {
+  float: left;
+  margin-top: 11rem;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.home-link{
+  margin-top: 10rem;
+}
+
+.profilesvg{
+  padding: 0.25rem;
+  border-image:  url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
+  background-image: url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
+box-shadow: none;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 5rem;
+}
+.insidethehome{
+  margin-top: 5rem;
+}
+
+p.avatar.text-end{
+  background-image: url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
+background-color: #7e0cbb;
+}
+
+.eleven{
+  color: #7e0cbb;
+  margin-left: 1rem;
+}
+
+
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
