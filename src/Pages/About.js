@@ -9,11 +9,14 @@ import { SiCss3 } from 'react-icons/si';
 import { TbBrandVscode } from 'react-icons/tb';
 import { AiFillGithub } from 'react-icons/ai';
 import { SiBootstrap } from 'react-icons/si';
-
+import { Navbar } from "./Navbar";
+import { Footer } from "./footer";
 
 export const About = () => {
 	return (
 		<>
+          <Navbar />
+
      <div className="background">
       <div className="text-center"> <div class="d-flex justify-content-center"><h1>Professional  </h1> <h1 className="eleven"> Skillset</h1></div>
 </div>
@@ -295,7 +298,7 @@ export const About = () => {
   </div>
 </div>
 </div> */}
-
+<Footer />
 </>
 	);
 };
