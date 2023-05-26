@@ -5,12 +5,16 @@ import { SiJavascript } from 'react-icons/si';
 import { SiMysql } from 'react-icons/si';
 import { GrReactjs } from 'react-icons/gr';
 import { SiCss3 } from 'react-icons/si';
+import { Navbar } from "./Navbar";
+import { Footer } from "./footer";
+
 // import insta from "../../img/insta.png";
 
 
 export const Projects = () => {
 	return (
 		<>
+        <Navbar />
     <div className="background">
     <div className="text-center"> <div class="d-flex justify-content-center"><h1>My Recent  </h1> <h1 className="twelve"> Work</h1></div></div>
       {/* <h6 className="abttitle text-center">Here Are A Few Of My Recent Projects</h6> */}
@@ -133,7 +137,7 @@ export const Projects = () => {
              
       </div> 
 </div>
-
+<Footer />
 </>
 	);
 };

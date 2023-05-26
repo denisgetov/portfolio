@@ -259,3 +259,8 @@ a{
 div.text-end{
   padding-right: 80px;
 }
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  color: white;
+}
