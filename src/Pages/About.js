@@ -146,7 +146,7 @@ export const About = () => {
              
       </div> 
 
-      <h1 className="abttitle text-center">Tools I Use</h1>
+      <div className="text-center"> <div class="d-flex justify-content-center"><h1>Tools I   </h1> <h1 className="eleven"> Use</h1></div></div>
       {/* <h6 className="abttitle text-center">Here Are A Few Of My Recent Projects</h6> */}
 
   <div class="container mt-4 d-flex justify-content-center">

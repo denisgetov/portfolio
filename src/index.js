@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import BlogPage from './Pages/BlogPage';
 import { About } from './Pages/About';
 import { Projects } from './Pages/Projects';
+import Resume from './Pages/Resume';
 
 
 import {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/Projects",
     element: <Projects/>,
+  },
+  {
+    path: "/Resume",
+    element: <Resume/>,
   },
 ]);
 

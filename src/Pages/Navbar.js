@@ -34,7 +34,7 @@ export const Navbar = () => {
         <a class="nav-link" href="#"><a className="hover" style={{ textDecoration: 'none' }}><MDBIcon className='ms-1' icon='book' size='sm' /> <b> Projects</b></a></a>
         </li>
         </Link>
-        <Link to="/resume">
+        <Link to="/Resume">
         <li class="nav-item">
         <a class="nav-link" href="#"><a className="hover" style={{ textDecoration: 'none' }}><MDBIcon className='ms-1' icon='file' size='sm' /> <b> Resume</b></a></a>
         </li>
