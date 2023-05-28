@@ -6,7 +6,7 @@ export const Footer = () => (
 
   <div class="text-center p-3" >
     © 2023 Copyright owned by Denis Getov
-    <a class="text-white" href="https://denisgetov.com/"> www.denisgetov.com</a>
+    <a class="text-white" href="https://denisgetov.netlify.app/"> www.denisgetov.netlify.app</a>
  
   </div>
   <a

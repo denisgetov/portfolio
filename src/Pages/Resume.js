@@ -17,8 +17,7 @@ function Resume() {
         <Navbar />
 		<div className='background'>
 			<div className='text-center'>
-			<img className="img-thumbnail" src={cv}/>
-
+            <img src={cv} class="img-thumbnail" alt="..."/>
 
 			</div>
 
