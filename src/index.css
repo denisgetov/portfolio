@@ -21,7 +21,7 @@
   border-color: black;
   } */
   .navnav{
-  margin-top: 0.67rem;
+  margin-top: 0.57rem;
   font-size: 25px;
   color: blue;
   }
@@ -144,6 +144,7 @@
   
   .img-thumbnail{
     box-shadow: 0 0 3px 3px #d8a5d5;
+    height: 40px;
   
   }
   
@@ -157,6 +158,9 @@
   a.nav-link.active{
     color: #b53ac8;
   }
+  b, :hover{
+    color: #ffffff;
+  }
   
   .hover{
     color: white;
@@ -169,11 +173,9 @@
     border-image:  url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
     background-image: url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
 box-shadow: none;
-border: none;
-padding: 0;
     max-width: 50%;
     height: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -275,6 +277,7 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 img.img-thumbnail {
     max-width: 50%;
     height: auto;
+    height: 43.5rem;
 }
 
 .img-thumbnail {
