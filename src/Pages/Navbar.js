@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { MDBIcon} from 'mdbreact';
 // import { CiBank } from 'react-icons/ci';
 import { CiUser } from 'react-icons/ci';
@@ -19,11 +20,13 @@ export const Navbar = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ">
-        <Link to="/">
-        <li class="nav-item">
-        <a class="nav-link" href="#"><a className="hover" style={{ textDecoration: 'none' }}><MDBIcon className='ms-1' icon='home' size='sm' /> <b> Home</b></a></a>
-        </li>
-        </Link>
+      <NavLink
+  to="/"
+  activeClassName="active"
+  style={{ textDecoration: 'none' }}
+>
+  Link Text
+</NavLink>
         <Link to="/About">
         <li class="nav-item">
         <a class="nav-link" href="#"><a className="hover" style={{ textDecoration: 'none' }}><MDBIcon className='ms-1' icon='user' size='sm' /> <b> About</b></a></a>
