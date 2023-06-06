@@ -3,6 +3,8 @@ import './index.css';
 import { Link } from "react-router-dom"
 import { Navbar } from './Pages/Navbar';
 import 'bootstrap/dist/css/bootstrap.css';
+import profilepic from './img/profilepic.png';
+
 
 
 function App() {
@@ -26,7 +28,7 @@ function App() {
 <div class="row">
   <div class="col-md-8"><ul>Throughout high school, I had always excelled in academics. My mother is a college professor and my father</ul><ul>Throughout high school, I had always excelled in academics. My mother is a college professor and my father</ul><ul>Throughout high school, I had always excelled in academics. My mother is a college professor and my father</ul> </div>
 
-  <div class="col-md-4 text-end"></div>
+  <div class="col-md-4 text-end"><img src={profilepic}></img></div>
   {/* <img src={avatarsvg}></img> */}
   {/* <FcBusinessman size={100}/> */}
 </div>
