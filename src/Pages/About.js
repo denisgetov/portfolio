@@ -38,7 +38,7 @@ export const About = () => {
 </p>
                   {/* <button type="button" href="https://github.com/LOGEDI/Safari_Adventure" class="btn btn-warning">GitHub</button> */}
                   {/* <a href="https://github.com/LOGEDI/Safari_Adventure" class="btn btn-warning">GitHub</a> */}
-
+{/* gitpod changes */}
                   </div>
   
                    </div>
