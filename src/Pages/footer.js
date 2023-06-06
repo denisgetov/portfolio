@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
+// , { Component } 
 
 export const Footer = () => (
 	<>

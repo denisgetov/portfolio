@@ -301,3 +301,30 @@ img.img-thumbnail {
 .active{
   color: #ffffff;
 }
+
+/* .active{
+padding: 12px;} */
+a{
+  color: #ffffff;
+  padding-left: 23px;
+  padding-top: 2px;
+}
+a:hover{
+  color: #ffc107;
+}
+@media (max-width: 992px){
+  a{
+    padding-top: 8px;
+    padding-left: 5px;
+  }
+}
+
+h1.hometitle{
+  margin-left: 40%;
+}
+@media (max-width: 992px) {
+
+h1.hometitle{
+  margin-left: 30%;
+}
+}

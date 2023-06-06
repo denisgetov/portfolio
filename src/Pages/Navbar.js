@@ -25,23 +25,27 @@ export const Navbar = () => {
   activeClassName="active"
   style={{ textDecoration: 'none' }}
 >
-  Link Text
+Home</NavLink>
+<NavLink
+  to="/about"
+  ClassName="active"
+  style={{ textDecoration: 'none', color: "white" }}
+>
+<MDBIcon className='ms-1' icon='home' size='sm' />About </NavLink>
+<NavLink
+  to="/projects"
+  activeClassName="active"
+  style={{ textDecoration: 'none', color: 'white' }}
+>
+  Projects
 </NavLink>
-        <Link to="/About">
-        <li class="nav-item">
-        <a class="nav-link" href="#"><a className="hover" style={{ textDecoration: 'none' }}><MDBIcon className='ms-1' icon='user' size='sm' /> <b> About</b></a></a>
-        </li>
-        </Link>
-        <Link to="/Projects">
-        <li class="nav-item">
-        <a class="nav-link" href="#"><a className="hover" style={{ textDecoration: 'none' }}><MDBIcon className='ms-1' icon='book' size='sm' /> <b> Projects</b></a></a>
-        </li>
-        </Link>
-        <Link to="/resume">
-        <li class="nav-item">
-        <a class="nav-link" href="#"><a className="hover" style={{ textDecoration: 'none' }}><MDBIcon className='ms-1' icon='file' size='sm' /> <b> Resume</b></a></a>
-        </li>
-        </Link>
+
+<NavLink
+  to="/resume"
+  activeClassName="active"
+  style={{ textDecoration: 'none', color: "white" }}
+>
+Resume</NavLink>
       </ul>
     </div>
   </div>
