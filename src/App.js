@@ -80,61 +80,18 @@ function App() {
             
 
             
-<footer class="text-center text-dark" >
-  <div class="container pt-4">
-    <section class="mb-4">
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
+<footer class="bg text-center text-dark">
+  <div class="container p-4 pb-0">
+  <a class="btn btn-primary" href="https://www.linkedin.com/in/denis-g-4a449525b/" role="button" style={{ width: '8%' }}>Linkedin</a>
+  <a class="btn btn-secondary" href="https://getbootstrap.com/docs/5.0/components/buttons/" role="button">GitHub</a>
 
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-twitter"></i
-      ></a>
 
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-google"></i
-      ></a>
 
-      <a
-        class="btn btn-link btn-floating btn-lg text-light m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="light"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <a
-        class="btn btn-link btn-floating btn-lg text-light m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="light"
-        ><i class="fab fa-linkedin"></i
-      ></a>
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
   </div>
 
-  <div class="text-center text-light p-3" >
-    © 2023 Copyright:
-    <a class="text-light" href="https://denisng.netlify.com/">denisng.netlify.com</a>
+  <div class="text-center p-3" >
+    © 2023 Copyright: Denis Getov
+    <a class="text-white" href="https://denisng.netlify.com/">denisng.netlify.com</a>
   </div>
 </footer>
 			  </div>
