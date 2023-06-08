@@ -31,7 +31,7 @@ Home</NavLink>
   ClassName="active"
   style={{ textDecoration: 'none', color: "white" }}
 >
-<MDBIcon className='ms-1' icon='home' size='sm' />About </NavLink>
+About </NavLink>
 <NavLink
   to="/projects"
   activeClassName="active"

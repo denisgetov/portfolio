@@ -26,7 +26,9 @@ function App() {
 </div>
 <div className="row1">
 <div class="row">
-  <div class="col-md-8"><ul>Throughout high school, I had always excelled in academics. My mother is a college professor and my father</ul><ul>Throughout high school, I had always excelled in academics. My mother is a college professor and my father</ul><ul>Throughout high school, I had always excelled in academics. My mother is a college professor and my father</ul> </div>
+  <div class="col-md-8"><ul>I currently work as a full-stack developer at King J technologies In Naxxar, Malta. I am responsible for the development and functionality of online casinos.Front-end technologies I use are JavaScript with React.js and css.The back-end consists of PHP with Laravel paired along with TSQL. (Feb2023- present)</ul>
+  <ul>My favorite project I have worked on is a full-stack web app that allows people to tour east Africa for the cheapest and most convenient ways possible.This was great because i learnt not only about how to make a web app responsive but also about the natural beauty of Africa.</ul>
+  <ul></ul> </div>
 
   <div class="col-md-4 text-end"><img src={profilepic}></img></div>
   {/* <img src={avatarsvg}></img> */}
@@ -131,8 +133,8 @@ function App() {
   </div>
 
   <div class="text-center text-light p-3" >
-    © 2020 Copyright:
-    <a class="text-light" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    © 2023 Copyright:
+    <a class="text-light" href="https://denisng.netlify.com/">denisng.netlify.com</a>
   </div>
 </footer>
 			  </div>

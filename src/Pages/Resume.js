@@ -1,6 +1,7 @@
 import React from 'react'; 
 import cv from '../img/cv.png';
 import { Navbar } from './Navbar';
+import { Footer } from './footer';
 
 function Resume() {
 	function handleDownload() { 
@@ -25,7 +26,7 @@ function Resume() {
 <div className='background text-center'>
 <button onClick={handleDownload}> Download CV</button>
 </div>
-
+<Footer />
 </>
 );
 }
