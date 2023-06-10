@@ -24,7 +24,7 @@ function Resume() {
 
 </div>
 <div className='background text-center'>
-<button onClick={handleDownload}> Download CV</button>
+<button onClick={handleDownload}> Download </button>
 </div>
 <Footer />
 </>

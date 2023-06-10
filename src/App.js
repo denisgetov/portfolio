@@ -82,8 +82,8 @@ function App() {
             
 <footer class="bg text-center text-dark">
   <div class="container p-4 pb-0">
-  <a class="btn btn-primary" href="https://www.linkedin.com/in/denis-g-4a449525b/" role="button" style={{ width: '8%' }}>Linkedin</a>
-  <a class="btn btn-secondary" href="https://getbootstrap.com/docs/5.0/components/buttons/" role="button">GitHub</a>
+  <a class="btn btn-primary" href="https://www.linkedin.com/in/denis-g-4a449525b/" role="button" >Linkedin</a>
+  <a class="btn btn-secondary" href="https://github.com/DGgithubDG" role="button">GitHub</a>
 
 
 

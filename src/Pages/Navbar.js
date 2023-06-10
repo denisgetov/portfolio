@@ -23,7 +23,7 @@ export const Navbar = () => {
       <NavLink
   to="/"
   activeClassName="active"
-  style={{ textDecoration: 'none' }}
+  style={{ textDecoration: 'none' , color: "white" }}
 >
 Home</NavLink>
 <NavLink

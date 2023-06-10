@@ -50,7 +50,7 @@ export const Projects = () => {
                       <h5 className="projectt">Star Wars Blog</h5>
                       <p class="line3 ">This is a front-end project designed with popular Javascript framework React.All the data about the characters,vehicles and planets is getting extracted from an external api.(Swapi.dev)</p>
                       {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-                      <a href="https://github.com/" class="btn btn-warning">GitHub</a>
+                      <a href="https://github.com/DGgithubDG/New-StarWars" class="btn btn-warning">GitHub</a>
 
   
                   </div>
@@ -65,7 +65,7 @@ export const Projects = () => {
           <h5 className="projectt">Authentication System</h5>
           <p class="line3">A back-end project made with python's popular framework Flask,and also mysql.This gives the user a authentic and unique JWT.The token are signed using a private key.</p>
           {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-          <a href="https://github.com/" class="btn btn-warning">GitHub</a>
+          <a href="https://github.com/DGgithubDG/Authentication-system-with-Python-Flask-and-React.js" class="btn btn-warning">GitHub</a>
 
   
       </div>
@@ -91,7 +91,7 @@ export const Projects = () => {
                       <h5 className="projectt">Card Generator</h5>
                   <p class="line1">Made only with Javascript and a little css. This is a game that can make you a random deck of cards. Able to generate the 52 diffirent cards in a deck.</p>
                   {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-                  <a href="https://github.com/" class="btn btn-warning">GitHub</a>
+                  <a href="https://github.com/DGgithubDG/Random-card-generator" class="btn btn-warning">GitHub</a>
 
   
                   </div>
@@ -110,7 +110,7 @@ export const Projects = () => {
                       <h5 className="projectt">Instagram Database Model</h5>
                       <p class="line3">Creating the entity relationship diagram for Instagram's Database using postgresql.Making closed and open relationships depending on the type of data required</p>
                       {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-                      <a href="https://github.com/" class="btn btn-warning">GitHub</a>
+                      <a href="https://github.com/DGgithubDG/exercise-instagram-data-modeling" class="btn btn-warning">GitHub</a>
 
   
                   </div>
@@ -126,7 +126,7 @@ export const Projects = () => {
           <h5 className="projectt">Todo List</h5>
           <p class="line3">This is a simple todo list developed with Javascript and css,designed to quickly see what your tasks are for the day and can easily add and delete tasks from the list.</p>
           {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-          <a href="https://github.com/" class="btn btn-warning">GitHub</a>
+          <a href="https://github.com/DGgithubDG/New-Todo-List" class="btn btn-warning">GitHub</a>
 
   
       </div>
