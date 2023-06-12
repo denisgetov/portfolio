@@ -36,6 +36,7 @@
     }
   .backnav{
       background-image: url("https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg");
+      size: 100%;
   
   }
   .navbtn{
@@ -276,6 +277,8 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 
 img.img-thumbnail {
     max-width: 50%;
+    height: 70%;
+    border: none;
     height: auto;
     height: 43.5rem;
 }
@@ -296,8 +299,11 @@ img.img-thumbnail {
     max-width: 90%;
     height: auto;
     padding: 0;
+    border: none;
 }
 }
+
+
 .active{
   color: #ffffff;
 }
@@ -331,3 +337,19 @@ h1.hometitle{
 .btn-secondary{
   margin-left: 1rem;
 }
+@media (max-width: 992px) {
+
+  div.col-md-4{
+    width: 160%;
+  }
+  }
+
+  @media (max-width: 992px) {
+
+    div.col-md-8{
+      width: 160%;
+    }
+    }
+/* span.navbar-toggler-icon{
+background: none;} */
+

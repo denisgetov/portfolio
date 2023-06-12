@@ -31,7 +31,7 @@ export const Projects = () => {
                       <img src="https://img.icons8.com/110/110/lion" />
   
                       <h5 className="projectt">Safari Adventure</h5>
-                  <p class="line1 text-align">This is a full-stack web development group project designed to make travelling east Africa cheaper and easier.We find the best activities and stays for you.</p>
+                  <p class="line1 text-align">This is a full-stack web development group project designed to make travelling east and central  Africa cheaper and easier.We find the best activities and stays for you.</p>
                   {/* And all this can be done on our website. */}
                   {/* <button type="button" href="https://github.com/LOGEDI/Safari_Adventure" class="btn btn-warning">GitHub</button> */}
                   <a href="https://sample-service-name-d01o.onrender.com/" class="btn btn-warning">Live Demo</a>
