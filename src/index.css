@@ -353,3 +353,7 @@ h1.hometitle{
 /* span.navbar-toggler-icon{
 background: none;} */
 
+img, svg {
+  vertical-align: middle;
+  margin-bottom: 0.4rem;
+}

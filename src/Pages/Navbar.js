@@ -7,8 +7,7 @@ import { CiUser } from 'react-icons/ci';
 import { CiServer } from 'react-icons/ci';
 import { BsPersonCircle } from 'react-icons/bs';
 import { BiUserCircle } from 'react-icons/bi';
-import { AiOutlineHome } from 'react-icons/ai';
-
+import { AiOutlineHome, AiOutlineUser, AiOutlineFileSync, AiOutlineProject } from 'react-icons/ai';
 
 export const Navbar = () => {
 	return (
@@ -25,22 +24,22 @@ export const Navbar = () => {
       <NavLink
   to="/"
   activeClassName="active"
-  style={{ textDecoration: 'none' , color: "white" }}
->
-<AiOutlineHome /> Home       
+  style={{ textDecoration: 'none' , color: "white" }} 
+> 
+<AiOutlineHome /> Home
 </NavLink>
 <NavLink
   to="/about"
   ClassName="active"
   style={{ textDecoration: 'none', color: "white" }}
 >
-About </NavLink>
+<AiOutlineUser /> About </NavLink>
 <NavLink
   to="/projects"
   activeClassName="active"
   style={{ textDecoration: 'none', color: 'white' }}
 >
-  Projects
+ <AiOutlineProject /> Projects
 </NavLink>
 
 <NavLink
@@ -48,7 +47,7 @@ About </NavLink>
   activeClassName="active"
   style={{ textDecoration: 'none', color: "white" }}
 >
-Resume</NavLink>
+< AiOutlineFileSync /> Resume</NavLink>
       </ul>
     </div>
   </div>
