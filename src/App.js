@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './index.css';
 import { Link } from "react-router-dom"
 import { Navbar } from './Pages/Navbar';
+
 import 'bootstrap/dist/css/bootstrap.css';
 import profilepic from './img/profilepic.png';
 
@@ -9,7 +10,6 @@ import profilepic from './img/profilepic.png';
 
 function App() {
   return (
-
     <div>
       <Navbar />
       <div className="background">
