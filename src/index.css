@@ -347,8 +347,8 @@ h1.hometitle{
   @media (max-width: 992px) {
 
     div.col-md-8{
-      width: 160%;
-    }
+text-align: start; 
+color: #b53ac8;   }
     }
 /* span.navbar-toggler-icon{
 background: none;} */
