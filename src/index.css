@@ -357,3 +357,29 @@ img, svg {
   vertical-align: middle;
   margin-bottom: 0.4rem;
 }
+
+.ten{
+  color: #b53ac8;
+  margin-left: 1rem;
+}
+
+.hometwo{
+  margin-left: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+}
+
+@media (max-width: 992px) {
+  .hometwo{
+    margin-left: 36%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  
+  }
+  }
+
+.row1{
+  margin-right: 1.5rem;
+  margin-left: 1rem;
+}

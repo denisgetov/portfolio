@@ -15,15 +15,10 @@ function App() {
       <div className="background">
     <div className="container">
       <h1 className="hometitle">Hey There ! 👋</h1>
+      <div className='hometwo'>
+      <div className="text-start"> <div class="d-flex justify-content-start"><h1>About  </h1> <h1 className="ten"> Me</h1></div></div>
+      </div>
 
-
-      <div class="hometitle">
-      <div class="row">
-    <div class="col-8">      <div className="text-center"> <div class="d-flex "><h1>Let Me Introduce  </h1> <h1 className="eleven"> Myself</h1></div></div>
-</div>
-    <div class="col-4"></div>
-  </div>
-</div>
 <div className="row1">
 <div class="row">
   <div class="col-md-8"><ul>I currently work as a full-stack developer at King J technologies In Naxxar, Malta. I am responsible for the development and functionality of online casinos.Front-end technologies I use are JavaScript with React.js and css.The back-end consists of PHP with Laravel paired along with TSQL. (Feb2023- present)</ul>
