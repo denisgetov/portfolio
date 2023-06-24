@@ -331,7 +331,7 @@ h1.hometitle{
 @media (max-width: 992px) {
 
 h1.hometitle{
-  margin-left: 30%;
+  margin-left: 23%;
 }
 }
 .btn-secondary{
@@ -373,7 +373,7 @@ img, svg {
 
 @media (max-width: 992px) {
   .hometwo{
-    margin-left: 36%;
+    margin-left: 27%;
     margin-top: 3rem;
     margin-bottom: 3rem;
   
