@@ -29,8 +29,14 @@ function App() {
 
 </div>
 </div> */}
+
+  {/* <img className="card-img-top mx-auto d-block" src="https://pngimg.com/d/pokemon_logo_PNG12.png" alt="Card image cap" style={{ width: '30%' }} /> */}
+
+  
 <div className="text-center"> <div class="d-flex justify-content-center"><h1>Denis  </h1> <h1 className="ten"> Getov</h1></div></div>
-<hr style={{ width: '60%', margin: '0 auto', color: 'white', borderWidth: '2px' }} />
+<img className="card-img-top mx-auto d-block" src="https://pngimg.com/d/pokemon_logo_PNG12.png" alt="Card image cap" style={{ width: '30%' }} />
+
+<hr  className='my-hr' style={{ width: '60%', margin: '0 auto', border: '1px solid white' }} />
 <h6 className=' hometext text-center'>
 I currently work as a full-stack developer at King J technologies In Naxxar, Malta. I am responsible for the development and functionality of online casinos.
 Front-end technologies I use are JavaScript with React.js and css.The back-end consists of PHP with Laravel paired along with TSQL. (Feb2023- present)

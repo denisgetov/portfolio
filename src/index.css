@@ -388,3 +388,10 @@ img, svg {
 .hometext{
   margin-top: 1rem;
 }
+.my-hr{
+  color: purple;
+}
+
+.card-img, .card-img-top, .card-img-bottom {
+  width: 10%;
+}
