@@ -35,7 +35,8 @@ function App() {
   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
   <div>
     <div className="card border-primary mb-3" style={{ maxWidth: '18rem' }}>
-      <div className="card-header text-center">Denis Getov</div>
+      <div className="card-header text-center"><div className="text-center"> <div class="d-flex justify-content-center"><h1>Denis  </h1> <h1 className="ten"> Getov</h1></div></div>
+</div>
       <div className="card-body text-primary">
         <h5 className="card-title"></h5>
         <img className="card-img-top mx-auto d-block" src="https://pngimg.com/d/pokemon_logo_PNG12.png" alt="Card image cap" style={{ width: '30%' }} />
@@ -45,7 +46,7 @@ function App() {
 </div>
 </div>
 
-<div className="text-center"> <div class="d-flex justify-content-center"><h1>Denis  </h1> <h1 className="ten"> Getov</h1></div></div>
+{/* <div className="text-center"> <div class="d-flex justify-content-center"><h1>Denis  </h1> <h1 className="ten"> Getov</h1></div></div> */}
 {/* <img className="card-img-top mx-auto d-block" src="https://pngimg.com/d/pokemon_logo_PNG12.png" alt="Card image cap" style={{ width: '30%' }} /> */}
 
 <hr  className='my-hr' style={{ width: '60%', margin: '0 auto', border: '1px solid white' }} />

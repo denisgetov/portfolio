@@ -26,7 +26,7 @@ export const About = () => {
            
            <div class="row g-0">
   
-             <div class="col-md-4 border-right">
+             <div class="col-md-4 ">
                   <div class="cardss">
                       
                  

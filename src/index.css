@@ -379,10 +379,6 @@ img, svg {
   }
   }
 
-.row1{
-  margin-right: 1.5rem;
-  margin-left: 1rem;
-}
 
 .hometext{
   margin-top: 1rem;
@@ -396,8 +392,8 @@ img, svg {
 }
 
 .firsthomepage{
-padding-top: 20px;
-padding-bottom: 30px;
+padding-top: 30px;
+padding-bottom: 50px;
 
 }
 
