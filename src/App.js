@@ -32,11 +32,11 @@ function App() {
 <div className="text-center"> <div class="d-flex justify-content-center"><h1>Denis  </h1> <h1 className="ten"> Getov</h1></div></div>
 <hr style={{ width: '60%', margin: '0 auto', color: 'white', borderWidth: '2px' }} />
 <h6 className=' hometext text-center'>
-<ul>I currently work as a full-stack developer at King J technologies In Naxxar, Malta. I am responsible for the development and functionality of online casinos.</ul>
-<ul>Front-end technologies I use are JavaScript with React.js and css.The back-end consists of PHP with Laravel paired along with TSQL. (Feb2023- present) </ul>
+I currently work as a full-stack developer at King J technologies In Naxxar, Malta. I am responsible for the development and functionality of online casinos.
+Front-end technologies I use are JavaScript with React.js and css.The back-end consists of PHP with Laravel paired along with TSQL. (Feb2023- present)
 </h6>
 <h6 className='text-center'>
-<ul>My favorite project I have worked on is a full-stack web app that allows people to tour east Africa for the cheapest and most convenient ways possible.This was great because i learnt not only about how to make a web app responsive but also about the natural beauty of Africa.</ul>
+My favorite project I have worked on is a full-stack web app that allows people to tour east Africa for the cheapest and most convenient ways possible.This was great because i learnt not only about how to make a web app responsive but also about the natural beauty of Africa.
 
 </h6>
 
