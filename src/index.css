@@ -311,7 +311,7 @@ img.img-thumbnail {
 /* .active{
 padding: 12px;} */
 a{
-  color: #ffffff;
+  color: #ffffffb7;
   padding-left: 23px;
   padding-top: 2px;
 }
@@ -383,4 +383,8 @@ img, svg {
 .row1{
   margin-right: 1.5rem;
   margin-left: 1rem;
+}
+
+.hometext{
+  margin-top: 1rem;
 }
