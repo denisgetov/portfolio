@@ -356,6 +356,7 @@ background: none;} */
 img, svg {
   vertical-align: middle;
   margin-bottom: 0.4rem;
+  margin-top: 0.1rem;
 }
 
 .ten{
@@ -395,4 +396,6 @@ img, svg {
 padding-top: 30px;
 
 }
-
+div.container.p-4.pb-0 {
+  padding-bottom: 30px !important;
+}

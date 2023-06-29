@@ -26,7 +26,7 @@ export const Navbar = () => {
   activeClassName="active"
   style={{ textDecoration: 'none' , color: "white" }} 
 > 
-<AiOutlineHome /> Home
+<AiOutlineHome size={18}/> Home
 </NavLink>
 <NavLink
   to="/about"
