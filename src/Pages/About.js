@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { DiPython } from 'react-icons/di';
 import { DiJavascript1 } from 'react-icons/di';
@@ -13,6 +13,30 @@ import { Navbar } from "./Navbar";
 import { Footer } from "./footer";
 
 export const About = () => {
+   useEffect(() => {
+    const disableHorizontalScroll = (e) => {
+      if (e.touches.length === 1) {
+        const touch = e.touches[0];
+        const touchStartX = touch.clientX;
+        const touchStartY = touch.clientY;
+
+        document.addEventListener('touchmove', (e) => {
+          const deltaX = touchStartX - e.touches[0].clientX;
+          const deltaY = touchStartY - e.touches[0].clientY;
+
+          if (Math.abs(deltaX) > Math.abs(deltaY)) {
+            e.preventDefault();
+          }
+        }, { passive: false });
+      }
+    };
+
+    document.addEventListener('touchstart', disableHorizontalScroll, { passive: false });
+
+    return () => {
+      document.removeEventListener('touchstart', disableHorizontalScroll);
+    };
+  }, []);
 	return (
 		<>
           <Navbar />
