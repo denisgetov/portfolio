@@ -39,30 +39,24 @@ export const About = () => {
   }, []);
 	return (
 		<>
-          <Navbar />
-
-     <div className="background" >
-      <div className="text-center"> <div class="d-flex justify-content-center"><h1>Professional  </h1> <h1 className="eleven"> Skillset</h1></div>
-</div>
+         <Navbar />
+    <div className="background">
+    <div className="text-center"> <div class="d-flex justify-content-center"><h1>Professional  </h1> <h1 className="eleven"> Skillset</h1></div></div>
       {/* <h6 className="abttitle text-center">Here Are A Few Of My Recent Projects</h6> */}
 
   <div class="container mt-4 d-flex justify-content-center">
            
            <div class="row g-0">
   
-             <div class="col-md-4 ">
-                  <div class="cardss">
+             <div class="col-md-4 border-right">
+                  <div class="cards">
                       
                  
-                  <div class="first bg-dark p-4 text-center">
-                      {/* <img src="https://img.icons8.com/110/110/lion" /> */}
-  
-                      <h2 className="projecttt">PYTHON</h2>
-                  <p class="line1 text-align">      <DiPython size={140}/>
-</p>
-                  {/* <button type="button" href="https://github.com/LOGEDI/Safari_Adventure" class="btn btn-warning">GitHub</button> */}
-                  {/* <a href="https://github.com/LOGEDI/Safari_Adventure" class="btn btn-warning">GitHub</a> */}
-{/* gitpod changes */}
+                  <div className="first bg-inf p-4 text-center" style={{ backgroundColor: 'rgba(0, 0, 255, 0)', opacity: 0.8 }}>
+                 <h2 className="projecttt">Javascript</h2>
+
+                  <p class="line1 text-align">      <DiPython size={140}/> </p>
+
                   </div>
   
                    </div>
@@ -71,14 +65,13 @@ export const About = () => {
 
           <div class="col-md-4">
   
-              <div class="cardss">
-              <div class=" third bg-dark p-4 text-center">
-                       {/* <img src="https://img.icons8.com/110/110/star-wars"/> */}
-                      <h2 className="projecttt">MYSQL</h2>
-                      <p class="line3 ">        <SiMysql size={140}/>
-</p>
+              <div class="cards">
+              <div class=" third bg-inf p-4 text-center">
+                       <img src="https://img.icons8.com/110/110/star-wars"/>
+                      <h5 className="projectt">Star Wars Blog</h5>
+                      <p class="line3 ">This is a front-end project designed with popular Javascript framework React.All the data about the characters,vehicles and planets is getting extracted from an external api.(Swapi.dev)</p>
                       {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-                      {/* <a href="https://github.com/" class="btn btn-warning">GitHub</a> */}
+                      <a href="https://github.com/DGgithubDG/New-StarWars" class="btn btn-warning">GitHub</a>
 
   
                   </div>
@@ -87,14 +80,13 @@ export const About = () => {
   
           <div class="col-md-4">
   
-  <div class="cardss">
-  <div class=" third bg-dark p-4 text-center">
-           {/* <img src="https://img.icons8.com/110/110/user"/> */}
-          <h2 className="projecttt">JAVASCRIPT</h2>
-          <p class="line3">   <DiJavascript1 size={140}/>
-</p>
+  <div class="cards">
+  <div class=" third bg-inf p-4 text-center">
+           <img src="https://img.icons8.com/110/110/user"/>
+          <h5 className="projectt">Authentication System</h5>
+          <p class="line3">A back-end project made with python's popular framework Flask,and also mysql.This gives the user a authentic and unique JWT.The token are signed using a private key.</p>
           {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-          {/* <a href="https://github.com/" class="btn btn-warning">GitHub</a> */}
+          <a href="https://github.com/DGgithubDG/Authentication-system-with-Python-Flask-and-React.js" class="btn btn-warning">GitHub</a>
 
   
       </div>
@@ -111,17 +103,16 @@ export const About = () => {
            <div class="row g-0">
   
              <div class="col-md-4 border-right">
-                  <div class="cardss">
+                  <div class="cards">
                       
                  
-                  <div class="first bg-dark p-4 text-center">
-                      {/* <img src="https://img.icons8.com//110/110/cards.png" /> */}
+                  <div class="first bg-inf p-4 text-center">
+                      <img src="https://img.icons8.com//110/110/cards.png" />
   
-                      <h2 className="projecttt">REACT</h2>
-                  <p class="line1">        <GrReactjs size={140} />
-</p>
+                      <h5 className="projectt">Card Generator</h5>
+                  <p class="line1">Made only with Javascript and a little css. This is a game that can make you a random deck of cards. Able to generate the 52 diffirent cards in a deck.</p>
                   {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-                  {/* <a href="https://github.com/" class="btn btn-warning">GitHub</a> */}
+                  <a href="https://github.com/DGgithubDG/Random-card-generator" class="btn btn-warning">GitHub</a>
 
   
                   </div>
@@ -132,16 +123,15 @@ export const About = () => {
 
           <div class="col-md-4">
   
-              <div class="cardss">
-              <div class=" third bg-dark p-4 text-center">
+              <div class="cards">
+              <div class=" third bg-inf p-4 text-center">
               {/* <img src={insta}></img>  */}
-              {/* <img src="https://img.icons8.com/110/110/database" /> */}
+              <img src="https://img.icons8.com/110/110/database" />
 
-                      <h2 className="projecttt">      <h2 class="card-title">FLASK</h2>
-</h2>
-                      <p class="line3"><SiFlask size={140}/></p>
+                      <h5 className="projectt">Instagram Database Model</h5>
+                      <p class="line3">Creating the entity relationship diagram for Instagram's Database using postgresql.Making closed and open relationships depending on the type of data required</p>
                       {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-                      {/* <a href="https://github.com/" class="btn btn-warning">GitHub</a> */}
+                      <a href="https://github.com/DGgithubDG/exercise-instagram-data-modeling" class="btn btn-warning">GitHub</a>
 
   
                   </div>
@@ -151,14 +141,13 @@ export const About = () => {
   
           <div class="col-md-4">
   
-  <div class="cardss">
-  <div class=" third bg-dark p-4 text-center">
-           {/* <img src="https://img.icons8.com/110/110/todo-list"/> */}
-          <h2 className="projecttt">CSS</h2>
-          <p class="line3">        <SiCss3 size={140}/>
-</p>
+  <div class="cards">
+  <div class=" third bg-inf p-4 text-center">
+           <img src="https://img.icons8.com/110/110/todo-list"/>
+          <h5 className="projectt">Todo List</h5>
+          <p class="line3">This is a simple todo list developed with Javascript and css,designed to quickly see what your tasks are for the day and can easily add and delete tasks from the list.</p>
           {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-          {/* <a href="https://github.com/" class="btn btn-warning">GitHub</a> */}
+          <a href="https://github.com/DGgithubDG/New-Todo-List" class="btn btn-warning">GitHub</a>
 
   
       </div>
@@ -167,28 +156,25 @@ export const About = () => {
   </div>
        </div>
              
-             
       </div> 
+      {/* header */}     <div className="text-center"> <div class="d-flex justify-content-center"><h1>Tools  </h1> <h1 className="eleven"> I Use</h1></div></div>
 
-      <div className="text-center"> <div class="d-flex justify-content-center"><h1>Tools I   </h1> <h1 className="eleven"> Use</h1></div></div>
-      {/* <h6 className="abttitle text-center">Here Are A Few Of My Recent Projects</h6> */}
-
-  <div class="container mt-4 d-flex justify-content-center">
+      <div class="container mt-4 d-flex justify-content-center">
            
            <div class="row g-0">
   
              <div class="col-md-4 border-right">
-                  <div class="cardss">
+                  <div class="cards">
                       
                  
-                  <div class="first bg-dark p-4 text-center">
-                      {/* <img src="https://img.icons8.com/110/110/lion" /> */}
+                  <div class="first bg-inf p-4 text-center">
+                      <img src="https://img.icons8.com/110/110/lion" />
   
-                      <h2 className="projecttt">VSCODE</h2>
-                  <p class="line1 text-align">      <TbBrandVscode size={140}/>
-</p>
+                      <h5 className="projectt">Safari Adventure</h5>
+                  <p class="line1 text-align">This is a full-stack web development group project designed to make travelling east and central  Africa cheaper and easier.We find the best activities and stays for you.</p>
+                  {/* And all this can be done on our website. */}
                   {/* <button type="button" href="https://github.com/LOGEDI/Safari_Adventure" class="btn btn-warning">GitHub</button> */}
-                  {/* <a href="https://github.com/LOGEDI/Safari_Adventure" class="btn btn-warning">GitHub</a> */}
+                  <a href="https://sample-service-name-d01o.onrender.com/" class="btn btn-warning">Live Demo</a>
 
                   </div>
   
@@ -198,14 +184,13 @@ export const About = () => {
 
           <div class="col-md-4">
   
-              <div class="cardss">
-              <div class=" third bg-dark p-4 text-center">
-                       {/* <img src="https://img.icons8.com/110/110/star-wars"/> */}
-                      <h2 className="projecttt">GITHUB</h2>
-                      <p class="line3 ">        <AiFillGithub size={140}/>
-</p>
+              <div class="cards">
+              <div class=" third bg-inf p-4 text-center">
+                       <img src="https://img.icons8.com/110/110/star-wars"/>
+                      <h5 className="projectt">Star Wars Blog</h5>
+                      <p class="line3 ">This is a front-end project designed with popular Javascript framework React.All the data about the characters,vehicles and planets is getting extracted from an external api.(Swapi.dev)</p>
                       {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-                      {/* <a href="https://github.com/" class="btn btn-warning">GitHub</a> */}
+                      <a href="https://github.com/DGgithubDG/New-StarWars" class="btn btn-warning">GitHub</a>
 
   
                   </div>
@@ -214,14 +199,13 @@ export const About = () => {
   
           <div class="col-md-4">
   
-  <div class="cardss">
-  <div class=" third bg-dark p-4 text-center">
-           {/* <img src="https://img.icons8.com/110/110/user"/> */}
-          <h2 className="projecttt">BOOTSTRAP</h2>
-          <p class="line3">   <SiBootstrap size={140}/>
-</p>
+  <div class="cards">
+  <div class=" third bg-inf p-4 text-center">
+           <img src="https://img.icons8.com/110/110/user"/>
+          <h5 className="projectt">Authentication System</h5>
+          <p class="line3">A back-end project made with python's popular framework Flask,and also mysql.This gives the user a authentic and unique JWT.The token are signed using a private key.</p>
           {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-          {/* <a href="https://github.com/" class="btn btn-warning">GitHub</a> */}
+          <a href="https://github.com/DGgithubDG/Authentication-system-with-Python-Flask-and-React.js" class="btn btn-warning">GitHub</a>
 
   
       </div>
@@ -232,96 +216,7 @@ export const About = () => {
        </div>
              
       </div> 
-      
-
 </div>
-    {/* <div className="background">
-<h1 className="abttitle text-center">Professional Skillset</h1>
-<div class="about card-group">
-  <div class="abt card ">
-    <div class="abt card-body">
-      <h5 class="card-title text-center">PYTHON</h5>
-      <p class="card-text text-center">
-      <DiPython size={140}/>
-      </p>
-    </div>
-  </div>
-  <div class="abt card">
-
-    <div class="abt card-body  text-center">
-      <h5 class="card-title">MYSQL</h5>
-      <p class="card-text">
-        <SiMysql size={140}/>
-      </p>
-    </div>
-  </div>
-  <div class="abt card  text-center">
-    <div class="card-body">
-      <h5 class="card-title">JAVASCRIPT</h5>
-      <p class="card-text">
-   <DiJavascript1 size={140}/>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="about card-group  text-center">
-  <div class="abt card">
-    <div class="abt card-body">
-      <h5 class="card-title text-center">REACT</h5>
-      <p class="card-text">
-        <GrReactjs size={140} />
-      </p>
-    </div>
-  </div>
-  <div class="abt card">
-
-    <div class="abt card-body  text-center">
-      <h5 class="card-title">FLASK</h5>
-      <p class="card-text"><SiFlask size={140}/>
-      </p>
-    </div>
-  </div>
-  <div class="abt card text-center">
-    <div class="card-body">
-      <h5 class="card-title">CSS3</h5>
-      <p class="card-text">
-        <SiCss3 size={140}/>
-      </p>
-    </div>
-  </div>
-  
-</div>
-<h1 className="abttitle text-center">Tools I Use</h1>
-
-<div class="about card-group">
-  <div class="abt card">
-    <div class="abt card-body">
-      <h5 class="card-title text-center">VS CODE</h5>
-      <p class="card-text text-center">
-      <TbBrandVscode size={140}/>
-      </p>
-    </div>
-  </div>
-  <div class="abt card">
-
-    <div class="abt card-body  text-center">
-      <h5 class="card-title">GITHUB</h5>
-      <p class="card-text">
-        <AiFillGithub size={140}/>
-      </p>
-    </div>
-  </div>
-  <div class="abt card  text-center">
-    <div class="card-body">
-      <h5 class="card-title">BOOTSTRAP</h5>
-      <p class="card-text">
-   <SiBootstrap size={140}/>
-      </p>
-    </div>
-  </div>
-</div>
-</div> */}
 <Footer />
 </>
 	);
