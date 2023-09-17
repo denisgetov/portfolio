@@ -1,0 +1,20 @@
+/* .navbar-dark .navbar-toggler-icon {
+    background-image: url('https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg') !important;
+    background-size: contain;
+    background-color: transparent !important;
+    width: 30px;
+    height: 30px;
+    transition: none;
+    filter: brightness(0) invert(1);
+} */
+.navbar-toggler-icon {
+    background-image: linear-gradient(grey 33.33%, transparent 33.33%, transparent 66.67%, grey 66.67%, grey) !important;
+    background-size: contain;
+    background-color: transparent !important;
+    width: 30px;
+    height: 30px;
+    transition: none;
+    filter: brightness(0) invert(1);
+    transform: rotate(90deg); /* Rotate the lines 90 degrees */
+}
+
