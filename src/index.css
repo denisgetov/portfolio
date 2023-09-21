@@ -22,7 +22,7 @@
   border-color: black;
   } */
   .navnav{
-  margin-top: 0.57rem;
+  margin-top: 1.57rem;
   font-size: 25px;
   color: blue;
   }
@@ -30,6 +30,7 @@
     cursor: pointer;
     font-size: 27px;
     margin-left: 0.5rem;
+padding-top: 1.0%;
   }
   .navbar-dark .navbar-brand:hover{
     cursor: pointer;
@@ -147,6 +148,7 @@
   .img-thumbnail{
     box-shadow: 0 0 3px 3px #d8a5d5;
     height: 40px;
+    margin-top: 1rem;
   
   }
   
@@ -400,6 +402,18 @@ padding-top: 30px;
 div.container.p-4.pb-0 {
   padding-bottom: 30px !important;
 }
+
+.hoverover:hover{
+color: #f49128;
+}
+.hoverover{
+  color: #ffffff;
+  font-size: 18px;
+}
+
+
+
+
 /* .navbar-dark .navbar-toggler-icon {
   background-image: none !important;
 } */
