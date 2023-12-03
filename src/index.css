@@ -411,6 +411,9 @@ color: #f49128;
   font-size: 18px;
 }
 
+.no-horizontal-scroll {
+  overflow-x: hidden;
+}
 
 
 
