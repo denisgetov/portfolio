@@ -42,20 +42,21 @@ export const Projects = () => {
                     
              </div>
 
-          <div class="col-md-4">
+             <div class="col-md-4">
   
-              <div class="cards">
-              <div class=" third bg-inf p-4 text-center">
-                       <img src="https://img.icons8.com/110/110/star-wars"/>
-                      <h5 className="projectt">Star Wars Blog</h5>
-                      <p class="line3 ">This is a front-end project designed with popular Javascript framework React.All the data about the characters,vehicles and planets is getting extracted from an external api.(Swapi.dev)</p>
-                      {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-                      <a href="https://github.com/DGgithubDG/New-StarWars" class="btn btn-warning">GitHub</a>
+  <div class="cards">
+  <div class=" third bg-inf p-4 text-center">
+           <img src="https://img.icons8.com/110/110/stocks"/>
+          <h5 className="projectt">Live Forex App</h5>
+          <p class="line3">The web app is designed for stock and forex enthusiasts, providing live updates on forex rates and stock prices, along with additional features for a comprehensive experience.</p>
+          {/* <button type="button" class="btn btn-warning">GitHub</button> */}
+          <a href="https://forexlive.netlify.com" class="btn btn-warning">Live Demo</a>
 
   
-                  </div>
-                  </div>
-          </div>
+      </div>
+      </div>
+    
+  </div>
   
           <div class="col-md-4">
   
@@ -122,17 +123,16 @@ export const Projects = () => {
   
   <div class="cards">
   <div class=" third bg-inf p-4 text-center">
-           <img src="https://img.icons8.com/110/110/todo-list"/>
-          <h5 className="projectt">Todo List</h5>
-          <p class="line3">This is a simple todo list developed with Javascript and css,designed to quickly see what your tasks are for the day and can easily add and delete tasks from the list.</p>
+           <img src="https://img.icons8.com/110/110/star-wars"/>
+          <h5 className="projectt">Star Wars Blog</h5>
+          <p class="line3 ">This is a front-end project designed with popular Javascript framework React.All the data about the characters,vehicles and planets is  extracted from an external api.</p>
           {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-          <a href="https://github.com/DGgithubDG/New-Todo-List" class="btn btn-warning">GitHub</a>
+          <a href="https://github.com/DGgithubDG/New-StarWars" class="btn btn-warning">GitHub</a>
 
-  
+
       </div>
       </div>
-    
-  </div>
+</div>
        </div>
              
       </div> 
