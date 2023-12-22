@@ -13,6 +13,12 @@ function Resume() {
 		 link.remove(); 
 	}
 
+	// function to save as pdf 
+
+	const printContent = () => {
+		window.print();
+	  };
+
 	return (
 		<>
         <Navbar />
@@ -25,6 +31,9 @@ function Resume() {
 </div>
 <div className='background text-center'>
 <button className='hoverover' onClick={handleDownload}> Download </button>
+<ul></ul><br></br><button onClick={printContent} className='btn btn-primary btn-sm'>
+          Print
+        </button>
 </div>
 <Footer />
 </>
