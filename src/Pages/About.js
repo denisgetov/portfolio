@@ -9,296 +9,121 @@ import { SiCss3 } from 'react-icons/si';
 import { TbBrandVscode } from 'react-icons/tb';
 import { AiFillGithub } from 'react-icons/ai';
 import { SiBootstrap } from 'react-icons/si';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { DiFirebase } from "react-icons/di";
+import { SiNextdotjs } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { faJs, faPython, faReact, faSQL } from '@fortawesome/free-brands-svg-icons'; //
 import { Navbar } from "./Navbar";
 import { Footer } from "./footer";
 
 export const About = () => {
 	return (
-		<>
-          <Navbar />
-
-     <div className="background no-horizontal-scroll" >
-      <div className="text-center"> <div class="d-flex justify-content-center"><h1>Professional  </h1> <h1 className="eleven"> Skillset</h1></div>
-</div>
-      {/* <h6 className="abttitle text-center">Here Are A Few Of My Recent Projects</h6> */}
-
-  <div class="container mt-4 d-flex justify-content-center">
-           
-           <div class="row g-0">
-  
-             <div class="col-md-4 ">
-                  <div class="cardss">
-                      
-                 
-                  <div class="first bg-dark p-4 text-center">
-                      {/* <img src="https://img.icons8.com/110/110/lion" /> */}
-  
-                      <h2 className="projecttt">PYTHON</h2>
-                  <p class="line1 text-align">      <DiPython size={140}/>
-</p>
-                  {/* <button type="button" href="https://github.com/LOGEDI/Safari_Adventure" class="btn btn-warning">GitHub</button> */}
-                  {/* <a href="https://github.com/LOGEDI/Safari_Adventure" class="btn btn-warning">GitHub</a> */}
-{/* gitpod changes */}
-                  </div>
-  
-                   </div>
-                    
-             </div>
-
-          <div class="col-md-4">
-  
-              <div class="cardss">
-              <div class=" third bg-dark p-4 text-center">
-                       {/* <img src="https://img.icons8.com/110/110/star-wars"/> */}
-                      <h2 className="projecttt">MYSQL</h2>
-                      <p class="line3 ">        <SiMysql size={140}/>
-</p>
-                      {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-                      {/* <a href="https://github.com/" class="btn btn-warning">GitHub</a> */}
-
-  
-                  </div>
-                  </div>
+    <div>
+      <Navbar />
+    <section class="py-3 py-md-5 py-xl-8">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+            <h3 class="fs-6 text-secondary mb-2 text-uppercase text-center"></h3>
+            <h2 class="mb-4 display-5 text-center">Professional Skillset</h2>
+            <p class="fs-5 text-secondary mb-5 text-center">Below you can find the programming languages, frameworks and authentication systems I use.</p>
+            <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle"/>
           </div>
-  
-          <div class="col-md-4">
-  
-  <div class="cardss">
-  <div class=" third bg-dark p-4 text-center">
-           {/* <img src="https://img.icons8.com/110/110/user"/> */}
-          <h2 className="projecttt">JAVASCRIPT</h2>
-          <p class="line3">   <DiJavascript1 size={140}/>
-</p>
-          {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-          {/* <a href="https://github.com/" class="btn btn-warning">GitHub</a> */}
-
-  
-      </div>
-      </div>
-  
-  </div>
-  
-       </div>
-             
-      </div> 
-
-      <div class="container mt-4 d-flex justify-content-center">
-           
-           <div class="row g-0">
-  
-             <div class="col-md-4 border-right">
-                  <div class="cardss">
-                      
-                 
-                  <div class="first bg-dark p-4 text-center">
-                      {/* <img src="https://img.icons8.com//110/110/cards.png" /> */}
-  
-                      <h2 className="projecttt">REACT</h2>
-                  <p class="line1">        <GrReactjs size={140} />
-</p>
-                  {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-                  {/* <a href="https://github.com/" class="btn btn-warning">GitHub</a> */}
-
-  
-                  </div>
-  
-                   </div>
-                    
-             </div>
-
-          <div class="col-md-4">
-  
-              <div class="cardss">
-              <div class=" third bg-dark p-4 text-center">
-              {/* <img src={insta}></img>  */}
-              {/* <img src="https://img.icons8.com/110/110/database" /> */}
-
-                      <h2 className="projecttt">      <h2 class="card-title">FLASK</h2>
-</h2>
-                      <p class="line3"><SiFlask size={140}/></p>
-                      {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-                      {/* <a href="https://github.com/" class="btn btn-warning">GitHub</a> */}
-
-  
-                  </div>
-                  </div>
-  
-          </div>
-  
-          <div class="col-md-4">
-  
-  <div class="cardss">
-  <div class=" third bg-dark p-4 text-center">
-           {/* <img src="https://img.icons8.com/110/110/todo-list"/> */}
-          <h2 className="projecttt">CSS</h2>
-          <p class="line3">        <SiCss3 size={140}/>
-</p>
-          {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-          {/* <a href="https://github.com/" class="btn btn-warning">GitHub</a> */}
-
-  
-      </div>
+        </div>
       </div>
     
-  </div>
-       </div>
-             
-             
-      </div> 
-
-      <div className="text-center"> <div class="d-flex justify-content-center"><h1>Tools I   </h1> <h1 className="eleven"> Use</h1></div></div>
-      {/* <h6 className="abttitle text-center">Here Are A Few Of My Recent Projects</h6> */}
-
-  <div class="container mt-4 d-flex justify-content-center">
-           
-           <div class="row g-0">
-  
-             <div class="col-md-4 border-right">
-                  <div class="cardss">
-                      
-                 
-                  <div class="first bg-dark p-4 text-center">
-                      {/* <img src="https://img.icons8.com/110/110/lion" /> */}
-  
-                      <h2 className="projecttt">VSCODE</h2>
-                  <p class="line1 text-align">      <TbBrandVscode size={140}/>
-</p>
-                  {/* <button type="button" href="https://github.com/LOGEDI/Safari_Adventure" class="btn btn-warning">GitHub</button> */}
-                  {/* <a href="https://github.com/LOGEDI/Safari_Adventure" class="btn btn-warning">GitHub</a> */}
-
-                  </div>
-  
-                   </div>
-                    
-             </div>
-
-          <div class="col-md-4">
-  
-              <div class="cardss">
-              <div class=" third bg-dark p-4 text-center">
-                       {/* <img src="https://img.icons8.com/110/110/star-wars"/> */}
-                      <h2 className="projecttt">GITHUB</h2>
-                      <p class="line3 ">        <AiFillGithub size={140}/>
-</p>
-                      {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-                      {/* <a href="https://github.com/" class="btn btn-warning">GitHub</a> */}
-
-  
-                  </div>
-                  </div>
+      <div class="container overflow-hidden">
+        <div class="row gy-4">
+          <div class="col-6 col-md-4 col-xl-3 text-center">
+            <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 hover-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="65" fill="currentColor" viewBox="0 0 100 65">
+              <FontAwesomeIcon icon={faJs} size="3x" />
+                          </svg>
+            </div>
           </div>
-  
-          <div class="col-md-4">
-  
-  <div class="cardss">
-  <div class=" third bg-dark p-4 text-center">
-           {/* <img src="https://img.icons8.com/110/110/user"/> */}
-          <h2 className="projecttt">BOOTSTRAP</h2>
-          <p class="line3">   <SiBootstrap size={140}/>
-</p>
-          {/* <button type="button" class="btn btn-warning">GitHub</button> */}
-          {/* <a href="https://github.com/" class="btn btn-warning">GitHub</a> */}
+          <div class="col-6 col-md-4 col-xl-3 text-center">
+            <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 hover-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="65" fill="currentColor" viewBox="0 0 100 65">
+              <FontAwesomeIcon icon={faPython} size="5x" />
+              </svg>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3 text-center">
+            <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 hover-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="65" fill="currentColor " viewBox="0 0 100 65">
+              <FontAwesomeIcon icon={faReact} size="5x" />
+              </svg>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3 text-center">
+            <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 hover-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="65" fill="currentColor" viewBox="0 0 100 65">
+              <SiMysql size="5x" />
+              </svg>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3 text-center">
+            <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 hover-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="65" fill="currentColor" viewBox="0 0 100 65">
+              <SiBootstrap size="5x" />
+              </svg>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3 text-center">
+  <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 hover-logo">
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="65" fill="currentColor" viewBox="0 0 100 65">
+      <AiFillGithub size="5x" />
+    </svg>
+  </div>
+</div>
 
-  
+          <div class="col-6 col-md-4 col-xl-3 text-center">
+            <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 hover-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="65" fill="currentColor" viewBox="0 0 100 65">
+              <TbBrandVscode size="5x" />
+              </svg>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3 text-center">
+            <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 hover-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="65" fill="currentColor" viewBox="0 0 100 65">
+              <SiCss3 size="5x" />
+              </svg>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3 text-center">
+            <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 hover-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="65" fill="currentColor" viewBox="0 0 100 65">
+              <DiFirebase size="5x" />
+              </svg>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3 text-center">
+            <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 hover-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="65" fill="currentColor" viewBox="0 0 100 65">
+              <SiFlask size="5x" />
+              </svg>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3 text-center">
+            <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 hover-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="65" fill="currentColor" viewBox="0 0 100 65">
+              <SiNextdotjs size="5x" />
+              </svg>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-xl-3 text-center">
+            <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5 hover-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="65" fill="currentColor" viewBox="0 0 100 65">
+              <SiTypescript size="5x" />
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-  
-  </div>
-  
-       </div>
-             
-      </div> 
-      
-
-</div>
-    {/* <div className="background">
-<h1 className="abttitle text-center">Professional Skillset</h1>
-<div class="about card-group">
-  <div class="abt card ">
-    <div class="abt card-body">
-      <h5 class="card-title text-center">PYTHON</h5>
-      <p class="card-text text-center">
-      <DiPython size={140}/>
-      </p>
+    </section>
+    <Footer />
     </div>
-  </div>
-  <div class="abt card">
-
-    <div class="abt card-body  text-center">
-      <h5 class="card-title">MYSQL</h5>
-      <p class="card-text">
-        <SiMysql size={140}/>
-      </p>
-    </div>
-  </div>
-  <div class="abt card  text-center">
-    <div class="card-body">
-      <h5 class="card-title">JAVASCRIPT</h5>
-      <p class="card-text">
-   <DiJavascript1 size={140}/>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="about card-group  text-center">
-  <div class="abt card">
-    <div class="abt card-body">
-      <h5 class="card-title text-center">REACT</h5>
-      <p class="card-text">
-        <GrReactjs size={140} />
-      </p>
-    </div>
-  </div>
-  <div class="abt card">
-
-    <div class="abt card-body  text-center">
-      <h5 class="card-title">FLASK</h5>
-      <p class="card-text"><SiFlask size={140}/>
-      </p>
-    </div>
-  </div>
-  <div class="abt card text-center">
-    <div class="card-body">
-      <h5 class="card-title">CSS3</h5>
-      <p class="card-text">
-        <SiCss3 size={140}/>
-      </p>
-    </div>
-  </div>
-  
-</div>
-<h1 className="abttitle text-center">Tools I Use</h1>
-
-<div class="about card-group">
-  <div class="abt card">
-    <div class="abt card-body">
-      <h5 class="card-title text-center">VS CODE</h5>
-      <p class="card-text text-center">
-      <TbBrandVscode size={140}/>
-      </p>
-    </div>
-  </div>
-  <div class="abt card">
-
-    <div class="abt card-body  text-center">
-      <h5 class="card-title">GITHUB</h5>
-      <p class="card-text">
-        <AiFillGithub size={140}/>
-      </p>
-    </div>
-  </div>
-  <div class="abt card  text-center">
-    <div class="card-body">
-      <h5 class="card-title">BOOTSTRAP</h5>
-      <p class="card-text">
-   <SiBootstrap size={140}/>
-      </p>
-    </div>
-  </div>
-</div>
-</div> */}
-<Footer />
-</>
 	);
 };

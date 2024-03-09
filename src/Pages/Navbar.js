@@ -14,39 +14,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Navbar = () => {
 	return (
-		<>
-    <div className="backnav">
-    <nav class="navbar navbar-expand-md navbar-dark bg-transparent ml-auto">
+		
+<nav class="navbar navbar-expand-lg navbar-light" style={{backgroundColor: '#f2f2f2'}}>
   <div class="container-fluid">
-  <h2 class="navnav navbar-brand" href="/" style={{ marginTop: '0' }}>DG.</h2>
-  <button className="navbar-toggler custom-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-</button>
+    <a class="navbar-brand" href="/">DG</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  
+        <li class="nav-item ">
+          <a class="nav-link active" href="/about">
+            About
+          </a>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ">
-
-<Link to="/" className="hoverover"  style={{ textDecoration: 'none'  }} 
-><AiOutlineHome size={18}/> Home
- </Link>
-
-
-
-<Link to="/about" className="hoverover"  style={{ textDecoration: 'none'  }} 
->< AiOutlineUser /> About </Link>
-
-<Link to="/projects" className="hoverover"  style={{ textDecoration: 'none'  }} 
->< AiOutlineProject /> Projects </Link>
-
-
-<Link to="/resume" className="hoverover"  style={{ textDecoration: 'none'  }} 
->< AiOutlineFileSync /> Resume </Link>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/projects" >Projects</a>
+        </li>
       </ul>
+
     </div>
   </div>
-</nav>
-</div>
-</>
-	  
+</nav>	  
 	);
 };
