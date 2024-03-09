@@ -41,7 +41,7 @@ Front-end technologies I use are JavaScript with React.js and css.The back-end c
             <span class="fs-4 text-secondary">years of experience</span>
           </p>
           <div class="d-grid">
-            <button class="btn btn-primary btn-lg" type="button">Contact Me</button>
+         <button class="btn btn-primary btn-lg" type="button" ><a href="mailto:denisng666@gmail.com" style={{color: 'white', textDecoration: 'none'}}>Contact Me</a></button>
           </div>
         </div>
       </div>

@@ -13,4 +13,6 @@ min-height: 95vh;
     transform: scale(1.05); /* Adjust the scaling as needed */
   }
 
-  
+  .nav-link.active {
+    border-bottom: 1.5px solid blue; /* Add a bottom border */
+}

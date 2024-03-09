@@ -25,13 +25,12 @@ export const Navbar = () => {
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
   
         <li class="nav-item ">
-          <a class="nav-link active" href="/about">
-            About
-          </a>
+        <NavLink exact activeClassName="active" className="nav-link" to="/about">About</NavLink>
+
 
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/projects" >Projects</a>
+        <NavLink exact activeClassName="active" className="nav-link" to="/projects">Projects</NavLink>
         </li>
       </ul>
 
