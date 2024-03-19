@@ -25,7 +25,7 @@ function App() {
     <div class="row gy-2 gy-md-0 justify-content-xxl-center">
       <div class="col-12 order-md-1 col-md-8 col-xxl-6">
         <div class="text-center text-md-start">
-          <h2 class="display-3 fw-bold lh-1">Denis Getov</h2>
+          <h2 class="display-3 fw-bold lh-1">DNG Solutions</h2>
           <p class="text-secondary fs-4 mb-2">Full-Stack Developer</p>
           <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary"/>
           <p>Junior full stack web developer proficient in fundamental front-end and back-end languages.In-depth knowledge of Python,JavaScript and MySQL.Analytical and precise with hands-on experience taking charge of front and back-end web development.Skilled in creating databases for functionality, design and developing APIS.Hardworking collaborator with track record of superior results.</p>
